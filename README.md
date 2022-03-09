@@ -28,7 +28,7 @@
   [MIT](https://choosealicense.com/licenses/MIT)
     
   ## [Contributing](#table-of-contents)
-    
+  If you would like to contribute to this project email me at the below link.
    
   ## [Tests](#table-of-contents)
   No test are written at this time. 
