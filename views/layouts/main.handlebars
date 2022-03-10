@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Stoic Journal</title>
+
+  {{!---------------------- Custom Style  -----------------------}}
+  <link rel="stylesheet" href="">
+
+  
+
+   <script src="https://kit.fontawesome.com/e37a4f46b8.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class="wrapper">
+    <header>
+      <h1>
+        <a href="/">The Stoic Journal</a>
+      </h1>
+      <nav class="nav">
+        <div class="nav-menu flex-row">
+        {{#if loggedIn}}
+        <a href="/dashboard" class="nav__link nav__item dash-btn">Dashboard</a>
+        <button id="logout" class="nav__link logout-btn">Logout</button>
+        {{else}}
+            <ul class="nav__list">
+                <li class=""><a href="/login" class="nav__link login-btn">Login</a></li>
+            </ul>
+        {{/if}}
+        </div> 
+      </nav>
+    </header>
+    <main class="main">
+      {{{ body }}}
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="">
+                <h2></h2>
+                <p></p>
+            </div>
+            <div class="newsletter" >
+                <h2>Newsletter</h2>
+                <p>Stay update with our latest</p>
+                <div class="form-element">
+                    <input type="text" placeholder="Email"><span><i class="fas fa-chevron-right"></i></span>
+                </div>
+            </div>
+        </div>
+        <div class="rights flex-row">
+            <h4 class="text-gray">
+                Copyright ©2022 <a class="social-list__link" href="">
+                        <i class="fab fa-github"></i>
+                    </a>
+            </h4>
+        </div>
+    </footer>
+  </div>
+  
+  {{#if loggedIn}}
+  {{!-- logout --}}
+  <script src="/javascript/logout.js"></script>
+  {{/if}}
+</body>
+
+</html>
