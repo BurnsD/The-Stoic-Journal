@@ -14,7 +14,7 @@
 
  
   ## [Description](#table-of-contents)
-  After researching Stoicism and personally partaking in the act of journaling, I have decided to slowly build this project. I plan to create a basic application that will allow users to log in to a website to save personal journal entries! Filled with writing prompts and Daily Stoic qoutes. 
+  After researching Stoicism and personally partaking in the act of journaling, I have decided to slowly build this project. I plan to create a basic application that will allow users to log in to a website to save personal journal entries! Filled with writing prompts and qoutes from famous stoics such as Zeno of Citium, Marcus Aurelius, Seneca, and Epictetus.
    
   ## [Installation](#table-of-contents)
   I plan to personally deploy this application to Heroku. Allowing all use to be functional through a webpage I will link at a later time.
