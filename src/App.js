@@ -1,7 +1,6 @@
 import React from 'react';
-import './App.css';
 import Login from '../src/components/Login';
-import NavBar from '../src/components/NavBar';
+import { Navbar } from "./components/Navbar";
 import Journal from '../src/components/Journal';
 import Home from '../src/components/Home';
 import Qoutes from '../src/components/Qoutes';
@@ -11,7 +10,7 @@ import {Routes, Route} from 'react-router-dom';
 function App() {
   return (
     <>
-    <NavBar />
+    <Navbar />
       <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/journal' element={<Journal/>}/>
